@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.postuser-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;  
+  align-items: center;      /
+}
+
+
+.container {
+  width: 400px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+
+.header-1{
+
+   margin-bottom: 50px;
+   margin-left: 140px
+}
+
+
+
+.container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+
+.container .btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #2979ff, #1565c0);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
